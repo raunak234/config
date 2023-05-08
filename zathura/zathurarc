@@ -1,4 +1,5 @@
 set default-bg rgba(30,34,42,1)
 set recolor-lightcolor rgba(30,34,42,1)
 set adjust-open "best-fit"
+set selection-clipboard clipboard
 
