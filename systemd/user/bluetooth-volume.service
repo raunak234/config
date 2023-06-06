@@ -1,0 +1,9 @@
+[Unit]
+Description=Set Bluetooth volume to 20% on connect
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/bluetooth_volume.sh
+
+[Install]
+WantedBy=default.target
