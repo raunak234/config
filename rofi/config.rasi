@@ -1,19 +1,24 @@
 configuration {
   display-drun: "   Apps ";
   display-run:  "   Run ";
-  display-file-browser-extended: " 﩯  Files";
+  display-filebrowser: "❲❳ Files";
   drun-display-format: "{name}";
   font: "Monospace Regular 10";
   modi: "run,drun,filebrowser";
   show-icons: true;
   icon-theme: "Papirus-Maia";
+  disable-history: true;
+  levenshtein-sort: false;
+  no-sort: true;
+  cycle: true;
+  opacity: 60;
   sidebar-mode: true;
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #1E1D2F;
+  bg: #1e222a;
   bg-alt: #444b6a;
 
   fg: #D9E0EE;
@@ -73,7 +78,7 @@ mainbox {
 }
 
 prompt {
-  background-color: #CF6679;
+  background-color: #1e222a;
   enabled: true;
   padding: 10 10 10 10;
   text-color: @fg;
