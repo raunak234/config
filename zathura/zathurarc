@@ -2,4 +2,6 @@ set default-bg rgba(30,34,42,1)
 set recolor-lightcolor rgba(30,34,42,1)
 set adjust-open "best-fit"
 set selection-clipboard clipboard
-
+set index-bg rgba(30,34,42,1)
+set index-active-bg rgba(57,105,239,1)
+set font "iosevka 10"
